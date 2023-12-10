@@ -1,11 +1,12 @@
 import React from 'react'
+import './Navbar.scss'
 
 export const Navbar = () => {
   return (
     <div>
         <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <b><div class="dulitha" href="#">Dulitha <span>Wickramasinghe</span></div></b>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

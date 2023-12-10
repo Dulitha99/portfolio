@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
-
+@import url('./fonts/stylesheet.css');
 
 .dulitha {
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
   color:#fff;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Sail',sans-serif;
+  font-size:x-large;
 }
 
 
-.dulitha:first-of-type {    /* For increasing performance 
-                       ID/Class should've been used. 
-                       For a small demo 
-                       it's okaish for now */
+.dulitha:first-of-type {   
   animation: showup 10s infinite;
 }
 
